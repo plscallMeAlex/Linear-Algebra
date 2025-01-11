@@ -75,3 +75,20 @@ A permutation matrix $P_{ij}$ swaps rows i and j.
 $P_{23}=\begin{bmatrix}1&0&0 \\ 0&0&1 \\ 0&1&0\end{bmatrix}$
 
 # 6. Block Matrices
+Matrices can be divided into smaller blocks for simplified operations . (Like a Divide and Conquer)
+Use for Elimination, Augmentation, or even multiplication on blocks instead of individual elements.
+**Example:**
+$$A=\begin{bmatrix}
+A_{11}&A_{12} \\
+A_{21}&A_{22}
+\end{bmatrix}
+B=\begin{bmatrix}
+B_{11} \\
+B_{21}
+\end{bmatrix}
+$$
+Result
+$$AB=\begin{bmatrix}
+A_{11}B_{11}+A_{12}B_{21} \\
+A_{21}B_{11}+A_{22}B_{21}
+\end{bmatrix}$$
