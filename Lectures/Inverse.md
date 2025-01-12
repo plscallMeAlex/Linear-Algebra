@@ -67,6 +67,21 @@ $$E=\begin{bmatrix}
 
 Multiply \[A I] by $A^{-1}$ to get \[I $A^{-1}$]
 **In short is making the A to I.**
+## Example
+$$A=\begin{bmatrix}
+1&2&3 \\
+4&5&6 \\
+7&8&9
+\end{bmatrix}$$
+Make an augmented matrix by combining matrix A with identity matrix.
+We will get
+$$
+A=\begin{bmatrix}
+1&2&3&|&1&0&0 \\
+4&5&6&|&0&1&0 \\
+7&8&9&|&0&0&1
+\end{bmatrix}$$
+Make the left side turn into the identity matrix using elimination technique then you will get the inverse of matrix A or $A^{-1}$ on the right side of the line.
 ## Symmetric Matrices
 A matrix A is symmetric if it equals its transpose (change rows to columns and columns to rows):
 $$A=A^{T}$$
