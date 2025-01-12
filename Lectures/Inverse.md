@@ -136,6 +136,49 @@ $$
 $$
 After we inverse to opposite side and order we will get the product of 3 inverses is L by the formula.
 $$A=LU$$
+## $l_{ij}$
+$l_{ij}$ is the multiplier value used to eliminate the element in the i-th row and j-th column of a matrix during the elimination  process. It is calculated as:
+$$l_{ij}=\frac{a_{ij}}{a_{jj}}$$
+Where:
+- $a_{ij}$ - The element being eliminated.
+- $a_{jj}$ - The pivot element (on the diagonal)
+**Example:**
+Consider the matrix A:
+$$A=\begin{bmatrix}
+2&1&-1 \\
+-3&-1&2 \\
+-2&1&2
+\end{bmatrix}$$
+**Steps:**
+1. Eliminate the first column below the pivot ($a_{11}=2$)
+	For row 2 (i=2):
+	$$l_{21}=\frac{-3}{2}$$
+	Update row 2:
+	$$R_{2}\to R_{2}-l_{21}R_{1}=\begin{bmatrix}
+-3&-1&2
+\end{bmatrix}-\frac{-3}{2}\begin{bmatrix}
+2&1&-1
+\end{bmatrix}$$
+	Update row 3:
+	$$R_{3}\to R_{3}-l_{31}R_{1}$$
+**Resulting Matrix:**
+After eliminating the first column, the matrix becomes:
+$$
+\begin{bmatrix}
+2&1&-1 \\
+0&0.5&0.5 \\
+0&2&1
+\end{bmatrix}
+$$
+The multipliers $l_{21}=-1.5$ and $l_{31}=-1$ were used to perform these operations.
+### Connection to L in LU Decomposition
+In **LU decomposition,** the lower triangular matrix L contains the multipliers $l_{ij}$. For the above example, L would be:
+$$L=\begin{bmatrix}
+1&0&0 \\
+-1.5&1&0 \\
+-1&2&1
+\end{bmatrix}$$
+
 **Example:**
 For $A=\begin{bmatrix}2&1 \\ 6&8\end{bmatrix}$
 1. Eliminate 6 using row operations.
