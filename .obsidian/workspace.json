@@ -63,7 +63,8 @@
               "title": "Inverse"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,11 +203,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12b74a6a5d144197",
+  "active": "56f3b3b2f8b31a69",
   "lastOpenFiles": [
     "Lectures/Inverse.md",
-    "Lectures/Elimination.md",
     "Lectures/Vector 2.md",
+    "Lectures/Elimination.md",
     "Lectures/Vector 1.md",
     "Lectures",
     "Welcome.md"

@@ -178,8 +178,40 @@ $$L=\begin{bmatrix}
 -1.5&1&0 \\
 -1&2&1
 \end{bmatrix}$$
+- $l_{21}=-1.5$ Multiplier used to eliminate the first element in row 2.
+- $l_{31}=-1.5$ Multiplier used to eliminate the first element in row 3.
+**Properties of Multipliers**
+1. We store multiplier inside the L below the diagonal.
+2. The diagonal of L (Lower triangular) always contain 1s.
+3. Multiplier don't change when applying Gaussian elimination without row exchanges. 
 
-**Example:**
+## Example:
 For $A=\begin{bmatrix}2&1 \\ 6&8\end{bmatrix}$
 1. Eliminate 6 using row operations.
 2. Result in $L=\begin{bmatrix}1&0 \\ 3&1\end{bmatrix},U=\begin{bmatrix}2&1 \\ 0&5\end{bmatrix}$
+So $A=LU$
+
+# 5. Singular v. Invertible Matrices
+## A matrix is invertible (nonsingular) if:
+- All rows/columns are independent (no zero rows/columns or called $\det(A)\neq 0$
+- The matrix has a full rank.
+- The determinant of the matrix is 0: $\det(A)\neq 0$
+- The rows and columns are linearly independent.
+**Ex:**
+$$A=\begin{bmatrix}
+1&2 \\
+3&4
+\end{bmatrix}$$
+- The rows \[1, 2] and \[3, 4] are linearly independent.
+- $\det(A)=1\cdot4-2\cdot 3=-2\neq0$, so A is invertible.
+## A matrix is Singular (does not have an inverse) if:
+- The determinant of the matrix is 0: $\det(A)=0$
+- The rows or columns of the matrix are linearly dependent (some rows or columns can be expressed as linear combinations of others).
+- The matrix does not have a full rank (more on this below).
+**Ex:**
+$$A=\begin{bmatrix}
+1&2 \\
+2&4
+\end{bmatrix}$$
+- The second row (\[2, 4]) is a multiple of the first row (\[1, 2])
+- $\det(A)=1\cdot 4-2\cdot 2=0$, so A is singular.
