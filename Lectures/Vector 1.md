@@ -12,7 +12,8 @@ $$
 v=
 \begin{bmatrix}
 v_{1} \\
-v_{2}
+v_{2} \\
+v_{3}
 \end{bmatrix}
 $$
 ## Finding length
