@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56f3b3b2f8b31a69",
+  "active": "6c75a038a6a0aeae",
   "lastOpenFiles": [
-    "Lectures/Inverse.md",
     "Lectures/Vector 2.md",
+    "Lectures/Inverse.md",
     "Lectures/Elimination.md",
     "Lectures/Vector 1.md",
     "Lectures",

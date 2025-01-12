@@ -215,3 +215,9 @@ $$A=\begin{bmatrix}
 \end{bmatrix}$$
 - The second row (\[2, 4]) is a multiple of the first row (\[1, 2])
 - $\det(A)=1\cdot 4-2\cdot 2=0$, so A is singular.
+
+# 6. Cost of Elimination
+- Computational Time:
+	For $n*n$ matrices, the cost of Gaussian elimination is proportional to $n^{3}$
+- Efficiency:
+	Sparse matrices (with many zero entries) reduce computational cost significantly.
