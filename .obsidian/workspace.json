@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Elimination"
             }
+          },
+          {
+            "id": "6c75a038a6a0aeae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lectures/Inverse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inverse"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,13 +198,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be2f736ef3a5c213",
+  "active": "6c75a038a6a0aeae",
   "lastOpenFiles": [
-    "Lectures/Vector 2.md",
     "Lectures/Elimination.md",
+    "Lectures/Inverse.md",
+    "Lectures/Vector 2.md",
     "Lectures/Vector 1.md",
     "Lectures",
     "Welcome.md"
