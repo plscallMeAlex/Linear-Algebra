@@ -147,3 +147,72 @@ $P^{T}=\begin{bmatrix}0&0&1 \\ 1&0&0 \\ 0&1&0\end{bmatrix}$ and $P^{-1}=\begin{b
 $PP^{T}=\begin{bmatrix}0&1&0 \\ 0&0&1 \\ 1&0&0\end{bmatrix}\begin{bmatrix}0&0&1 \\ 1&0&0 \\ 0&1&0\end{bmatrix}=\begin{bmatrix}1&0&0 \\ 0&1&0 \\ 0&0&1\end{bmatrix}=I$
 
 # 4. The PA = LU Factorization
+The ... factorization is a process in linear algebra that decomposes any **invertible matrix A**
+into:
+- P - A permutation matrix that rearranges rows to handle pivoting.
+- L - A lower triangular matrix with ones on the diagonal.
+- U - A upper triangular matrix.
+This is the extension of $A=LU$ that have P accounting for row exchanges to ensure the stability during pivoting.
+## Use for: 
+- Handle the cases where A requires row exchanges for accurate factorization (zero or small pivot element)
+- Compute determinants or inverses of matrices.
+- Solve systems of linear equations efficiently.
+## Example 1:
+Let:
+$$A=\begin{bmatrix}
+0&1&2 \\
+1&3&4 \\
+2&7&6
+\end{bmatrix}$$
+1. Pivoting
+- The first pivot element is 0 so swap rows 1 and 2:
+$$P=\begin{bmatrix}
+0&1&0 \\
+1&0&0 \\
+0&0&1
+\end{bmatrix}$$
+$$PA=\begin{bmatrix}
+1&3&4 \\
+0&1&2 \\
+2&7&6
+\end{bmatrix}$$
+2. Perform Gaussian Elimination
+- Eliminate PA to form U:
+$$U=\begin{bmatrix}
+1&3&4 \\
+0&1&2 \\
+0&0&-2
+\end{bmatrix}$$
+3. Find L
+- The multipliers used during elimination are stored in L:
+Final factorization:
+$$PA=LU$$
+## Example 2:
+1. Solving Linear Systems:
+- Solve $Ax=b$ using
+$$PAx=Pb ,LUx=Pb$$
+2. Matrix Inverses:
+- Multiply P x A:
+$$PxA=\begin{bmatrix}
+0&0&1 \\
+0&1&0 \\
+1&0&0
+\end{bmatrix}\ x 
+\begin{bmatrix}
+1&2&3 \\
+0&1&4 \\
+5&6&0
+\end{bmatrix}=
+\begin{bmatrix}
+5&6&0 \\
+0&1&4 \\
+1&2&3
+\end{bmatrix}
+$$
+3. Determinants:
+- The determinant of A can be found from U:
+$$\det(A)=(-1)^{k}\cdot \det(U)$$
+where k is the number of row swaps in P.
+
+# 5. Vector Spaces
+# 6. Subspaces
