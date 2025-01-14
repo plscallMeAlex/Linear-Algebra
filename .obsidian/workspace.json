@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/Transposes and Permutations.md",
+                "file": "Lectures/Inverse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transposes and Permutations"
+              "title": "Inverse"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Past Quiz.md",
+                "file": "Lectures/Inverse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Past Quiz"
+              "title": "Inverse"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -244,14 +244,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c75a038a6a0aeae",
+  "active": "2330fcabd2a37e20",
   "lastOpenFiles": [
     "Practice/Past Quiz.md",
+    "Lectures/Inverse.md",
     "Lectures/Transposes and Permutations.md",
+    "Lectures/Vector 1.md",
     "Practice",
     "Lectures/Elimination.md",
-    "Lectures/Inverse.md",
-    "Lectures/Vector 1.md",
     "README.md",
     "Lectures/Vector 2.md",
     "Lectures",

@@ -59,6 +59,7 @@ $$E=\begin{bmatrix}
 5&1&0 \\
 0&0&1
 \end{bmatrix}$$
+So the exchange symbol from plus and minus only work with if the matrix is there **have 1 on the diagonal of Upper and Lower triangular matrix**.
 
 # 3. Calculating $A^{-1}$ Using Gauss-Jordan Elimination
 **Steps:**
