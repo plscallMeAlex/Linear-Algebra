@@ -213,6 +213,3 @@ $$
 - The determinant of A can be found from U:
 $$\det(A)=(-1)^{k}\cdot \det(U)$$
 where k is the number of row swaps in P.
-
-# 5. Vector Spaces
-# 6. Subspaces
