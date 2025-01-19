@@ -24,7 +24,7 @@ $$
 $$
 A=LDU
 $$
-D is the diagonal matrix (the pivot matrix) also $D=D^{T}$
+D is the diagonal matrix (the pivot matrix) also $D=D^{T}$ The above formula is make the triangular matrix having 1 on the diagonal. Symmetric
 ## Example
 The inverse of $A=\begin{bmatrix}1&0 \\ 6&1\end{bmatrix}$ is $A^{-1}=\begin{bmatrix}1&0 \\ -6&1\end{bmatrix}$
 $(A^{-1})^{T}=(A^{T})^{-1}=\begin{bmatrix}1&-6 \\ 0&1\end{bmatrix}$

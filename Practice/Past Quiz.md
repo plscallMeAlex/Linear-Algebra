@@ -26,4 +26,14 @@
 - Find the length of the vector $v=\begin{bmatrix} 4 \\ 8 \\ 1\end{bmatrix}$.
 	$||v||=\sqrt{ 16+64+1 }=\sqrt{ 81 }=9$
 - What is inverse of $A=\begin{bmatrix}1&0&0 \\ 0&1&0 \\ 0&-4&1\end{bmatrix}$
-	$A^{-1}=$
+	$A^{-1}=\begin{bmatrix}1&0&0 \\ 0&1&0 \\ 0&4&1\end{bmatrix}$
+- Find dot product of the following vectors $u=\begin{bmatrix}6 \\ 7 \\ 3\end{bmatrix},v=\begin{bmatrix}2 \\ 5 \\ 14\end{bmatrix}$
+	$u\cdot v=12+35+42=89$
+- Find the unit vector in the directions of v, where $v=\begin{bmatrix}7 \\ 4 \\ -4\end{bmatrix}$
+	$||v||=\sqrt{ 49+16+16 }=\sqrt{ 81 }=9$
+	$u=\frac{1}{9}\begin{bmatrix}7 \\ 4 \\ -4\end{bmatrix}=\begin{bmatrix}\frac{7}{9} \\ \frac{4}{9} \\ -\frac{4}{9} \end{bmatrix}$
+- Find the linear combination of the following vectors $4\begin{bmatrix}4 \\ 9 \\ 1\end{bmatrix}+3\begin{bmatrix}1 \\ 3 \\ 8\end{bmatrix}$
+	$\begin{bmatrix}16 \\ 36 \\ 4\end{bmatrix}+\begin{bmatrix}3 \\ 9 \\ 24\end{bmatrix}=\begin{bmatrix}19 \\ 45 \\ 28\end{bmatrix}$
+- What is the inverse of $A=\begin{bmatrix}-2&-7 \\ 9&-7\end{bmatrix}$
+	$A^{-1}=\frac{1}{(14)-(-63)}\begin{bmatrix}-7&7 \\ -9&-2\end{bmatrix}=\frac{1}{77}\begin{bmatrix}-7&7 \\ -9&-2\end{bmatrix}$
+	$A^{-1}=\begin{bmatrix}- \frac{1}{11}& \frac{1}{11} \\ - \frac{9}{77}& - \frac{2}{77}\end{bmatrix}$

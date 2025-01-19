@@ -59,7 +59,7 @@ $$E=\begin{bmatrix}
 5&1&0 \\
 0&0&1
 \end{bmatrix}$$
-So the exchange symbol from plus and minus only work with if the matrix is there **have 1 on the diagonal of Upper and Lower triangular matrix**.
+So the exchange symbol from plus and minus only work with if the matrix is there **have 1 on the diagonal of Upper and Lower triangular matrix** otherwise use another method.
 
 # 3. Calculating $A^{-1}$ Using Gauss-Jordan Elimination
 **Steps:**
@@ -177,6 +177,12 @@ $$A=\begin{bmatrix}
 \end{bmatrix}$$
 	Update row 3:
 	$$R_{3}\to R_{3}-l_{31}R_{1}$$
+	Then the $E_{21}:$
+	$$E_{21}=\begin{bmatrix}
+1&0&0 \\
+\frac{-3}{2}&1&0 \\
+0&0&1
+\end{bmatrix}$$
 **Resulting Matrix:**
 After eliminating the first column, the matrix becomes:
 $$
